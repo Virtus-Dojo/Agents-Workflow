@@ -1,0 +1,8 @@
+request:
+  id: RUN-EXAMPLE
+  project: example-project
+  intent: new-business-need
+  description: "Necessidade a investigar"
+  workflow_version: "0.1.0"
+  stage: DISCOVERY
+  context_references: []

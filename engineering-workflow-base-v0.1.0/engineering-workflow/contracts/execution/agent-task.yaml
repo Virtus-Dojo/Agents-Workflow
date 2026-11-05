@@ -1,0 +1,10 @@
+task:
+  id: TASK-EXAMPLE
+  execution_id: RUN-EXAMPLE
+  assigned_role: business-analyst
+  stage: DISCOVERY
+  objective: "Compreender o problema sem antecipar solução técnica"
+  inputs: [RUN-EXAMPLE]
+  expected_outputs: [business_context, open_questions]
+  guardrails: [GR-B01, GR-B02, GR-G01]
+  pending_gate: H1

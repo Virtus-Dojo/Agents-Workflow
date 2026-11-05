@@ -1,0 +1,13 @@
+result:
+  task_id: TASK-EXAMPLE
+  status: COMPLETED
+  artifacts:
+    - id: BUS-EXAMPLE
+      version: "0.1.0"
+      status: DRAFT
+  blockers: []
+  warnings: []
+  verification:
+    contract_valid: false
+    evidence: []
+  next_action: REQUEST_APPROVAL

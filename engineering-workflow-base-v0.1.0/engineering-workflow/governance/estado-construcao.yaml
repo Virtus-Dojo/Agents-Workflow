@@ -1,0 +1,22 @@
+id: CONSTRUCAO-QUATRO-AGENTES-001
+versao: "1.0.1"
+etapa_atual: Especificar os quatro agentes e sua comunicação
+status: Em revisão
+pacote: especificacao-quatro-agentes.md
+agentes:
+  - Orquestrador
+  - Analista de Negócio
+  - Arquiteto de Software
+  - Desenvolvedor
+proxima_acao: Revisar o comportamento do Analista de Negócio no chat
+comportamento_orquestrador:
+  versao: "0.3.0"
+  status: Aprovado
+  evidencia: aprovacao-orquestrador-0.3.0.md
+etapas_seguintes:
+  - etapa: Testar um cenário da academia de Jiu-Jitsu
+    status: Não iniciada
+  - etapa: Refinar e testar novamente
+    status: Não iniciada
+aprovacao_integral_deste_pacote: Ainda não recebida
+observacao: Aprovações anteriores de governança são preservadas; o cenário da academia não foi iniciado por esta revisão

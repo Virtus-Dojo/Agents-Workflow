@@ -1,0 +1,9 @@
+transition:
+  execution_id: RUN-EXAMPLE
+  from: DISCOVERY
+  proposed_to: FUNCTIONAL_SPEC
+  decision: REQUEST_APPROVAL
+  gate: H1
+  artifact_id: BUS-EXAMPLE
+  artifact_version: "0.1.0"
+  approved: false

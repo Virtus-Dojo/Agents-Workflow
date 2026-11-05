@@ -1,0 +1,52 @@
+{
+  "execucao": {
+    "id": "EXEC-JJ-REAL-001",
+    "projeto": "academia-jiujitsu-descoberta",
+    "versao_do_registro": "1.0.1",
+    "etapa": "Descoberta do negócio",
+    "status": "Aguardando esclarecimento",
+    "papel_atual": "Analista de negócios",
+    "solicitacao": "redirecionamento-real.md",
+    "fontes": [
+      "historico-consultado.md",
+      "analise-planilha.md"
+    ],
+    "documento_em_revisao": {
+      "id": "BUS-JJ-REAL-001",
+      "versao": "1.1.0",
+      "arquivo": "contexto-negocio-real.md",
+      "status": "Em elaboração",
+      "sha256": "d40ba7ecf62bc8a503f4d08e5c78c91519e6766aa3aac2057540f43efd57060b"
+    },
+    "revisao": {
+      "marco": "H1",
+      "status": "Ainda não solicitado",
+      "escopo": "Problema de negócio real ainda precisa ser identificado",
+      "evidencia_de_aprovacao": null
+    },
+    "aprovacoes": [],
+    "workflow": {
+      "pasta": "../../engineering-workflow-base-v0.1.0/engineering-workflow",
+      "versao_do_pacote_de_referencia": "0.1.0",
+      "versao_do_contrato_consultado": "0.2.0",
+      "complemento": "governance/approval-orchestrator-2026-11-04.md"
+    },
+    "historico": "historico.md",
+    "verificacao": "verificacao-descoberta-real.md",
+    "substitui": "estado-antes-descoberta-real.yaml",
+    "proxima_acao": "Entender com o usuário como a presença é registrada e por quem, antes de interpretar regras e exceções",
+    "revisao_anterior": {
+      "motivo": "Redirecionamento para descoberta real",
+      "status": "Retirada da revisão",
+      "versao": "1.0.0",
+      "documento": "BUS-JJ-FICT-001"
+    },
+    "planilha_consultada": {
+      "arquivo": "C:/Users/wwwpe/Downloads/Aluno Virtus.xlsx",
+      "abas_ocultas": 5,
+      "sha256": "1557506c1b63b96e8839c74e72c0e4f22bcb02be27a058eede379a9d782f5988",
+      "abas_lidas": 18,
+      "analise": "analise-planilha.md"
+    }
+  }
+}

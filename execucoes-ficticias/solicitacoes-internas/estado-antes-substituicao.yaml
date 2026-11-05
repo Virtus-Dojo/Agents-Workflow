@@ -1,0 +1,71 @@
+{
+  "execucao": {
+    "id": "EXEC-FICT-001",
+    "projeto": "solicitacoes-internas-ficticias",
+    "versao_do_registro": "1.0.1",
+    "data": "2026-11-04",
+    "fuso": "America/Fortaleza",
+    "etapa": "Descoberta do negócio",
+    "status": "Aguardando sua aprovação",
+    "papel_atual": "Orquestrador",
+    "workflow": {
+      "versao_do_pacote_de_referencia": "0.1.0",
+      "pasta": "../../engineering-workflow-base-v0.1.0/engineering-workflow",
+      "contrato_consultado": "agents/orchestrator.md",
+      "versao_do_contrato": "0.2.0",
+      "complemento_aprovado": "governance/approval-orchestrator-2026-11-04.md",
+      "observacao": "Pacote de referência e sete propostas aprovadas; não é nova release ou schema definitivo"
+    },
+    "solicitacao": {
+      "id": "SOL-FICT-001",
+      "versao": "1.0.0",
+      "arquivo": "solicitacao.md"
+    },
+    "fontes": [
+      {
+        "id": "DADOS-FICT-001",
+        "versao": "1.0.0",
+        "arquivo": "dados-ficticios.md",
+        "natureza": "Dados inteiramente fictícios"
+      }
+    ],
+    "documento_em_revisao": {
+      "id": "BUS-FICT-001",
+      "versao": "1.0.0",
+      "arquivo": "contexto-negocio.md",
+      "status": "Em revisão",
+      "sha256": "88e1bf38398bd4979c99638f872bafb2531cb2409c6aeb5c77123e54f4dbe299"
+    },
+    "revisao": {
+      "marco": "H1",
+      "status": "Aguardando sua aprovação",
+      "pacote": "revisao-h1.md",
+      "responsavel_convidado": "Usuário deste chat para o exercício fictício",
+      "evidencia_de_aprovacao": null
+    },
+    "aprovacoes": [],
+    "pendencias": [
+      {
+        "id": "P-01",
+        "descricao": "Definir prioridades antes de especificar priorização"
+      },
+      {
+        "id": "P-02",
+        "descricao": "Definir tratamento da ausência de responsável antes de especificar encaminhamento"
+      },
+      {
+        "id": "P-03",
+        "descricao": "Avaliar custo da conferência antes de adotar alternativa"
+      },
+      {
+        "id": "P-04",
+        "descricao": "Obter decisão H1 sobre recorte, premissas e objetivo desta versão"
+      }
+    ],
+    "operacao_impedida": "Iniciar especificação funcional sem H1",
+    "historico": "historico.md",
+    "verificacao": "verificacao.md",
+    "proxima_acao": "Receber decisão humana sobre BUS-FICT-001 1.0.0; conferir versão e registrar evidência antes de avançar",
+    "retomada_em_outra_sessao": "Ainda não verificada"
+  }
+}

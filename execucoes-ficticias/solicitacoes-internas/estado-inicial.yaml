@@ -1,0 +1,15 @@
+{
+  "execucao": {
+    "id": "EXEC-FICT-001",
+    "projeto": "solicitacoes-internas-ficticias",
+    "versao_do_registro": "1.0.0",
+    "data": "2026-11-04",
+    "etapa": "Descoberta do negócio",
+    "status": "Em andamento",
+    "papel_atual": "Analista de negócios",
+    "solicitacao": "solicitacao.md",
+    "documento_em_revisao": null,
+    "aprovacoes": [],
+    "proxima_acao": "Preparar e conferir o contexto de negócio antes de solicitar H1"
+  }
+}

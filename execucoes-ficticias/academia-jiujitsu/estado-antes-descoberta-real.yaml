@@ -1,0 +1,38 @@
+{
+  "execucao": {
+    "id": "EXEC-JJ-FICT-001",
+    "projeto": "academia-jiujitsu-exercicio",
+    "versao_do_registro": "1.0.0",
+    "etapa": "Descoberta do negócio",
+    "status": "Aguardando sua aprovação",
+    "papel_atual": "Orquestrador",
+    "solicitacao": "solicitacao.md",
+    "fontes": [
+      "fontes.md"
+    ],
+    "documento_em_revisao": {
+      "id": "BUS-JJ-FICT-001",
+      "versao": "1.0.0",
+      "arquivo": "contexto-negocio.md",
+      "status": "Em revisão",
+      "sha256": "b865ce14066f114b966708ec0d5ebc78f1a54dbbc4c5072210c0b1bc402a53a0"
+    },
+    "revisao": {
+      "marco": "H1",
+      "status": "Aguardando sua aprovação",
+      "escopo": "Três cenários fictícios de cancelamentos e reposições; sem validação do problema real",
+      "evidencia_de_aprovacao": null
+    },
+    "aprovacoes": [],
+    "workflow": {
+      "pasta": "../../engineering-workflow-base-v0.1.0/engineering-workflow",
+      "versao_do_pacote_de_referencia": "0.1.0",
+      "versao_do_contrato_consultado": "0.2.0",
+      "complemento": "governance/approval-orchestrator-2026-11-04.md"
+    },
+    "historico": "historico.md",
+    "verificacao": "verificacao.md",
+    "substitui": "../solicitacoes-internas/estado.yaml",
+    "proxima_acao": "Revisar os cenários no chat; registrar ajustes ou H1 explícito da versão apresentada antes de iniciar especificação funcional"
+  }
+}

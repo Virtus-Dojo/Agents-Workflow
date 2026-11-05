@@ -1,0 +1,44 @@
+{
+  "execucao": {
+    "id": "EXEC-JJ-REAL-001",
+    "projeto": "academia-jiujitsu-descoberta",
+    "versao_do_registro": "1.0.0",
+    "etapa": "Descoberta do negócio",
+    "status": "Aguardando esclarecimento",
+    "papel_atual": "Analista de negócios",
+    "solicitacao": "redirecionamento-real.md",
+    "fontes": [
+      "historico-consultado.md"
+    ],
+    "documento_em_revisao": {
+      "id": "BUS-JJ-REAL-001",
+      "versao": "1.0.0",
+      "arquivo": "contexto-negocio-real.md",
+      "status": "Em elaboração",
+      "sha256": "81e4a575d376e17e6dabd4050f7f91b0091aef25e1a37366f3357652c905aa74"
+    },
+    "revisao": {
+      "marco": "H1",
+      "status": "Ainda não solicitado",
+      "escopo": "Problema de negócio real ainda precisa ser identificado",
+      "evidencia_de_aprovacao": null
+    },
+    "aprovacoes": [],
+    "workflow": {
+      "pasta": "../../engineering-workflow-base-v0.1.0/engineering-workflow",
+      "versao_do_pacote_de_referencia": "0.1.0",
+      "versao_do_contrato_consultado": "0.2.0",
+      "complemento": "governance/approval-orchestrator-2026-11-04.md"
+    },
+    "historico": "historico.md",
+    "verificacao": "verificacao-descoberta-real.md",
+    "substitui": "estado-antes-descoberta-real.yaml",
+    "proxima_acao": "Perguntar qual é a principal dificuldade real da academia; aprofundar uma pergunta por vez",
+    "revisao_anterior": {
+      "motivo": "Redirecionamento para descoberta real",
+      "status": "Retirada da revisão",
+      "versao": "1.0.0",
+      "documento": "BUS-JJ-FICT-001"
+    }
+  }
+}

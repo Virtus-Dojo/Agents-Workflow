@@ -1,0 +1,12 @@
+execution:
+  id: RUN-EXAMPLE
+  project: example-project
+  workflow_version: "0.1.0"
+  stage: DISCOVERY
+  status: BLOCKED
+  assigned_role: business-analyst
+  pending_gate: H1
+  approval_references: []
+  blockers:
+    - id: BLK-EXAMPLE
+      reason: business-approval-required
